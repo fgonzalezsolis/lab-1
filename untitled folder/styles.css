@@ -1,0 +1,41 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+.boxes {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.box {
+  background-color: navy;
+  color: white;
+  padding: 30px;
+  text-decoration: none;
+}
+
+.photos {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.photo img {
+  width: 150px;
+  height: 150px;
+}
+
+.info-box {
+  border: 2px solid navy;
+  padding: 20px;
+  width: 400px;
+  margin: 20px auto;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
